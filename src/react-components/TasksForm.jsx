@@ -42,7 +42,6 @@ const TasksForm = () => {
     if (paramsId) {
       setTask(tasks.find((task) => task.id === paramsId));
     }
-    console.log('render');
   }, [paramsId]);
 
   return (

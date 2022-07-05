@@ -35,7 +35,6 @@ export const taskSlice = createSlice({
         taskFound.title = title;
         taskFound.description = description;
       }
-      console.log(action.payload);
     },
   },
 });
