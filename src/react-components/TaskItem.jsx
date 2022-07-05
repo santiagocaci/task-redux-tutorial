@@ -11,7 +11,7 @@ const TaskItem = ({ id, title, description }) => {
   return (
     <div className='bg-neutral-700 p-4 rounded-md'>
       <header className='pb-2 flex justify-between items-center'>
-        <h3>{title}</h3>
+        <h3 className='text-lg font-semibold'>{title}</h3>
         <div className='flex items-center gap-2'>
           <button
             className='bg-red-600 px-2 py-1 rounded-sm text-ms'
